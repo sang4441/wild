@@ -1,7 +1,9 @@
 package com.springapp.mvc.controller.JSON;
 
 import com.springapp.mvc.DAO.ItemDao;
+import com.springapp.mvc.DAO.UserDao;
 import com.springapp.mvc.model.Item;
+import com.springapp.mvc.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -19,12 +21,23 @@ public class JSONController {
     @Autowired
     ItemDao itemDao;
 
+    @Autowired
+    UserDao userDao;
+
     @RequestMapping(value="/product", method = RequestMethod.GET)
     public @ResponseBody
     List<Item> productInJSON() {
 
         List<Item> items = itemDao.findAllItems();
         return items;
+    }
+
+    @RequestMapping(value="/user", method = RequestMethod.GET)
+    public @ResponseBody
+    List<User> userInJSON() {
+
+        List<User> users = userDao.findAllUsers();
+        return users;
     }
 
 }

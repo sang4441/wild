@@ -10,6 +10,8 @@ public class User {
 
     private String email;
 
+    private String phone;
+
     private String password;
 
     private String description;
@@ -20,9 +22,9 @@ public class User {
 
     private String city;
 
-    private String address1;
+    private String street1;
 
-    private String address2;
+    private String street2;
 
     private String postalCode;
 
@@ -100,22 +102,6 @@ public class User {
         this.city = city;
     }
 
-    public String getAddress1() {
-        return address1;
-    }
-
-    public void setAddress1(String address1) {
-        this.address1 = address1;
-    }
-
-    public String getAddress2() {
-        return address2;
-    }
-
-    public void setAddress2(String address2) {
-        this.address2 = address2;
-    }
-
     public String getPostalCode() {
         return postalCode;
     }
@@ -163,4 +149,29 @@ public class User {
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
     }
+
+    public String getStreet2() {
+        return street2;
+    }
+
+    public void setStreet2(String street2) {
+        this.street2 = street2;
+    }
+
+    public String getStreet1() {
+        return street1;
+    }
+
+    public void setStreet1(String street1) {
+        this.street1 = street1;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
 }

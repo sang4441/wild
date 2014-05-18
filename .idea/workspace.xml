@@ -18,23 +18,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java" line="74" class="com.springapp.mvc.controller.admin.AdminController" package="com.springapp.mvc.controller.admin">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -80,40 +63,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="create_product.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/forms/create_product.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="4" selection-start="1620" selection-end="1833" vertical-scroll-proportion="-1.38" vertical-offset="621" max-vertical-offset="1680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin_product.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_product.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="5" column="1" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AdminController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1515">
+            <state line="43" column="0" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.8274112" vertical-offset="319" max-vertical-offset="1455">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="480">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -121,7 +86,7 @@
       <file leaf-file-name="JSONController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/JSON/JSONController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="525">
+            <state line="38" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="720">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,11 +94,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.fileupload.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/jquery.fileupload.js">
+      <file leaf-file-name="UserDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="22" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" vertical-offset="328" max-vertical-offset="21345">
-              <folding />
+            <state line="26" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="525">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1400416262000" expanded="true" signature="466:797" placeholder="SELECT * FRO..categories..." />
+                <marker date="1400416262000" expanded="true" signature="466:796" placeholder="SELECT users..users..." />
+                <marker date="1400416262000" expanded="true" signature="466:796" placeholder="SELECT users..users..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="167" column="0" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1905">
+              <folding>
+                <element signature="e#2591#2592#0" expanded="true" />
+                <element signature="e#2621#2622#0" expanded="true" />
+                <element signature="e#2667#2668#0" expanded="true" />
+                <element signature="e#2705#2706#0" expanded="true" />
+                <element signature="e#2739#2740#0" expanded="true" />
+                <element signature="e#2769#2770#0" expanded="true" />
+                <element signature="e#2815#2816#0" expanded="true" />
+                <element signature="e#2853#2854#0" expanded="true" />
+                <element signature="e#2885#2886#0" expanded="true" />
+                <element signature="e#2913#2914#0" expanded="true" />
+                <element signature="e#2955#2956#0" expanded="true" />
+                <element signature="e#2989#2990#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,22 +133,13 @@
       <file leaf-file-name="ItemDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/ItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="2793" selection-end="2793" vertical-scroll-proportion="-9.730769" vertical-offset="812" max-vertical-offset="1620">
+            <state line="21" column="4" selection-start="655" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1620">
               <folding>
                 <element signature="imports" expanded="true" />
                 <marker date="1400407182000" expanded="true" signature="776:923" placeholder="INSERT INTO ..." />
                 <marker date="1400407182000" expanded="true" signature="1296:1321" placeholder="SELECT max(i..items..." />
-                <marker date="1400407182000" expanded="true" signature="1356:1410" placeholder="INSERT INTO ..." />
-                <marker date="1400407182000" expanded="true" signature="1356:1410" placeholder="INSERT INTO ..." />
                 <marker date="1400407182000" expanded="true" signature="1356:1412" placeholder="INSERT INTO ..." />
-                <marker date="1400407182000" expanded="true" signature="1663:1822" placeholder="UPDATE items..." />
-                <marker date="1400407182000" expanded="true" signature="1663:1688" placeholder="UPDATE items..." />
                 <marker date="1400407182000" expanded="true" signature="1663:1820" placeholder="UPDATE items..." />
-                <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT items..items..." />
-                <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT items..items..." />
-                <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT * FRO..items..." />
-                <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT * FRO..items..." />
-                <marker date="1400407182000" expanded="true" signature="2247:2720" placeholder="SELECT items..items..." />
                 <marker date="1400407182000" expanded="true" signature="2247:2720" placeholder="SELECT items..items..." />
                 <marker date="1400407182000" expanded="true" signature="3020:3044" placeholder="SELECT * FRO..categories..." />
                 <marker date="1400407182000" expanded="true" signature="3335:3355" placeholder="SELECT * FRO..brands..." />
@@ -165,30 +148,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="23" selection-start="505" selection-end="509" vertical-scroll-proportion="-4.6923075" vertical-offset="373" max-vertical-offset="1665">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="52" selection-start="3752" selection-end="3752" vertical-scroll-proportion="-7.5" vertical-offset="1080" max-vertical-offset="1950">
+            <state line="92" column="45" selection-start="4004" selection-end="4004" vertical-scroll-proportion="-2.58" vertical-offset="1251" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product.jsp">
+      <file leaf-file-name="product.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/product.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="29" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.9594595" vertical-offset="110" max-vertical-offset="750">
+            <state line="0" column="30" selection-start="23" selection-end="30" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/user.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="35" selection-start="1130" selection-end="1130" vertical-scroll-proportion="-8.75" vertical-offset="270" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin_user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -211,8 +201,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/style.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/dropzone.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/dropzone.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/file/MultiPartFileUploadBean.java" />
@@ -222,15 +210,21 @@
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Brand.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/public/js/admin/admin_product.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/API/APIController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/API/JSONController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/ItemDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_product.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/JSON/JSONController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/forms/create_product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_user.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/JSON/JSONController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/user.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java" />
       </list>
     </option>
   </component>
@@ -370,6 +364,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ANBD" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -668,6 +704,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/resourses/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin" />
     </key>
   </component>
@@ -1038,12 +1075,12 @@
       <changelist id="713a94f7-3311-40bc-85a0-ddcbcd76b1b8" name="Default" comment="" />
       <created>1400296947127</created>
       <updated>1400296947127</updated>
-      <workItem from="1400296951065" duration="42400000" />
+      <workItem from="1400296951065" duration="45005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42400000" />
+    <option name="totallyTimeSpent" value="45005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
@@ -1124,92 +1161,6 @@
             <marker date="1400304042000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1400304042000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2580">
-          <folding>
-            <element signature="e#550#551#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#608#609#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#667#668#0" expanded="false" />
-            <element signature="e#694#695#0" expanded="false" />
-            <element signature="e#734#735#0" expanded="false" />
-            <element signature="e#766#767#0" expanded="false" />
-            <element signature="e#798#799#0" expanded="false" />
-            <element signature="e#826#827#0" expanded="false" />
-            <element signature="e#868#869#0" expanded="false" />
-            <element signature="e#902#903#0" expanded="false" />
-            <element signature="e#937#938#0" expanded="false" />
-            <element signature="e#968#969#0" expanded="false" />
-            <element signature="e#1016#1017#0" expanded="false" />
-            <element signature="e#1056#1057#0" expanded="false" />
-            <element signature="e#1094#1095#0" expanded="false" />
-            <element signature="e#1128#1129#0" expanded="false" />
-            <element signature="e#1182#1183#0" expanded="false" />
-            <element signature="e#1228#1229#0" expanded="false" />
-            <element signature="e#1262#1263#0" expanded="false" />
-            <element signature="e#1292#1293#0" expanded="false" />
-            <element signature="e#1338#1339#0" expanded="false" />
-            <element signature="e#1376#1377#0" expanded="false" />
-            <element signature="e#1411#1412#0" expanded="false" />
-            <element signature="e#1442#1443#0" expanded="false" />
-            <element signature="e#1490#1491#0" expanded="false" />
-            <element signature="e#1530#1531#0" expanded="false" />
-            <element signature="e#1561#1562#0" expanded="false" />
-            <element signature="e#1588#1589#0" expanded="false" />
-            <element signature="e#1628#1629#0" expanded="false" />
-            <element signature="e#1660#1661#0" expanded="false" />
-            <element signature="e#1695#1696#0" expanded="false" />
-            <element signature="e#1726#1727#0" expanded="false" />
-            <element signature="e#1774#1775#0" expanded="false" />
-            <element signature="e#1814#1815#0" expanded="false" />
-            <element signature="e#1849#1850#0" expanded="false" />
-            <element signature="e#1880#1881#0" expanded="false" />
-            <element signature="e#1928#1929#0" expanded="false" />
-            <element signature="e#1968#1969#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-            <element signature="e#2038#2039#0" expanded="false" />
-            <element signature="e#2090#2091#0" expanded="false" />
-            <element signature="e#2134#2135#0" expanded="false" />
-            <element signature="e#2164#2165#0" expanded="false" />
-            <element signature="e#2193#2194#0" expanded="false" />
-            <element signature="e#2234#2235#0" expanded="false" />
-            <element signature="e#2270#2271#0" expanded="false" />
-            <element signature="e#2301#2302#0" expanded="false" />
-            <element signature="e#2328#2329#0" expanded="false" />
-            <element signature="e#2368#2369#0" expanded="false" />
-            <element signature="e#2400#2401#0" expanded="false" />
-            <element signature="e#2429#2430#0" expanded="false" />
-            <element signature="e#2457#2458#0" expanded="false" />
-            <element signature="e#2496#2497#0" expanded="false" />
-            <element signature="e#2530#2531#0" expanded="false" />
-            <element signature="e#2563#2564#0" expanded="false" />
-            <element signature="e#2592#2593#0" expanded="false" />
-            <element signature="e#2636#2637#0" expanded="false" />
-            <element signature="e#2672#2673#0" expanded="false" />
-            <element signature="e#2708#2709#0" expanded="false" />
-            <element signature="e#2742#2743#0" expanded="false" />
-            <element signature="e#2794#2795#0" expanded="false" />
-            <element signature="e#2840#2841#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,47 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/ItemDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="2793" selection-end="2793" vertical-scroll-proportion="-9.730769" vertical-offset="812" max-vertical-offset="1620">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1400407182000" expanded="true" signature="776:923" placeholder="INSERT INTO ..." />
-            <marker date="1400407182000" expanded="true" signature="1296:1321" placeholder="SELECT max(i..items..." />
-            <marker date="1400407182000" expanded="true" signature="1356:1410" placeholder="INSERT INTO ..." />
-            <marker date="1400407182000" expanded="true" signature="1356:1410" placeholder="INSERT INTO ..." />
-            <marker date="1400407182000" expanded="true" signature="1356:1412" placeholder="INSERT INTO ..." />
-            <marker date="1400407182000" expanded="true" signature="1663:1822" placeholder="UPDATE items..." />
-            <marker date="1400407182000" expanded="true" signature="1663:1688" placeholder="UPDATE items..." />
-            <marker date="1400407182000" expanded="true" signature="1663:1820" placeholder="UPDATE items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT items..items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT items..items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT * FRO..items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2723" placeholder="SELECT * FRO..items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2720" placeholder="SELECT items..items..." />
-            <marker date="1400407182000" expanded="true" signature="2247:2720" placeholder="SELECT items..items..." />
-            <marker date="1400407182000" expanded="true" signature="3020:3044" placeholder="SELECT * FRO..categories..." />
-            <marker date="1400407182000" expanded="true" signature="3335:3355" placeholder="SELECT * FRO..brands..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="52" selection-start="3752" selection-end="3752" vertical-scroll-proportion="-7.5" vertical-offset="1080" max-vertical-offset="1950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/JSON/JSONController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="525">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="23" selection-start="505" selection-end="509" vertical-scroll-proportion="-4.6923075" vertical-offset="373" max-vertical-offset="1665">
@@ -1383,33 +1293,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/forms/create_product.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="3022" selection-end="3022" vertical-scroll-proportion="0.0" vertical-offset="979" max-vertical-offset="1515">
+        <state line="51" column="10" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-11.4" vertical-offset="195" max-vertical-offset="1680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="655" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1620">
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1400407182000" expanded="true" signature="776:923" placeholder="INSERT INTO ..." />
+            <marker date="1400407182000" expanded="true" signature="1296:1321" placeholder="SELECT max(i..items..." />
+            <marker date="1400407182000" expanded="true" signature="1356:1412" placeholder="INSERT INTO ..." />
+            <marker date="1400407182000" expanded="true" signature="1663:1820" placeholder="UPDATE items..." />
+            <marker date="1400407182000" expanded="true" signature="2247:2720" placeholder="SELECT items..items..." />
+            <marker date="1400407182000" expanded="true" signature="3020:3044" placeholder="SELECT * FRO..categories..." />
+            <marker date="1400407182000" expanded="true" signature="3335:3355" placeholder="SELECT * FRO..brands..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_product.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state line="5" column="1" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/forms/create_product.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/public/js/admin/admin_user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="4" selection-start="1620" selection-end="1833" vertical-scroll-proportion="-1.38" vertical-offset="621" max-vertical-offset="1680">
+        <state line="0" column="9" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/product.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="29" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.9594595" vertical-offset="110" max-vertical-offset="750">
+        <state line="92" column="45" selection-start="4004" selection-end="4004" vertical-scroll-proportion="-2.58" vertical-offset="1251" max-vertical-offset="1785">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="23" selection-end="30" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/JSON/JSONController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="720">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/admin/dashboard/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="35" selection-start="1130" selection-end="1130" vertical-scroll-proportion="-8.75" vertical-offset="270" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/DAO/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="525">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1400416262000" expanded="true" signature="466:797" placeholder="SELECT * FRO..categories..." />
+            <marker date="1400416262000" expanded="true" signature="466:796" placeholder="SELECT users..users..." />
+            <marker date="1400416262000" expanded="true" signature="466:796" placeholder="SELECT users..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="0" selection-start="2855" selection-end="2855" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="1905">
+          <folding>
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2769#2770#0" expanded="true" />
+            <element signature="e#2815#2816#0" expanded="true" />
+            <element signature="e#2853#2854#0" expanded="true" />
+            <element signature="e#2885#2886#0" expanded="true" />
+            <element signature="e#2913#2914#0" expanded="true" />
+            <element signature="e#2955#2956#0" expanded="true" />
+            <element signature="e#2989#2990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/mvc/controller/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1533" selection-end="1533" vertical-scroll-proportion="0.8274112" vertical-offset="319" max-vertical-offset="1455">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

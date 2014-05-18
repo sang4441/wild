@@ -4,7 +4,6 @@ import com.springapp.mvc.DAO.ItemDao;
 import com.springapp.mvc.model.Brand;
 import com.springapp.mvc.model.Category;
 import com.springapp.mvc.model.Item;
-import com.springapp.mvc.model.file.MultiPartFileUploadBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -29,28 +28,26 @@ public class AdminController {
 
     @RequestMapping(value = "/dashboard", method = RequestMethod.GET)
     public String index(ModelMap model) {
-        return "admin/index";
+        return "admin/dashboard/index";
     }
 
     @RequestMapping(value = "/dashboard/product", method = RequestMethod.GET)
     public ModelAndView Product(ModelMap model) {
-        return new ModelAndView("admin/index", "content", "product");
+        return new ModelAndView("admin/dashboard/index", "content", "product");
     }
 
     @RequestMapping(value = "/dashboard/product/new", method = RequestMethod.GET)
     public ModelAndView newProduct(ModelMap model) {
-
         List<Category> categories = itemDao.findAllCategories();
         List<Brand> brands = itemDao.findAllBrands();
         model.addAttribute("categories", categories);
         model.addAttribute("brands", brands);
-//        MultipartFile
-        return new ModelAndView("admin/index", "content", "forms/create_product");
+        return new ModelAndView("admin/dashboard/index", "content", "../forms/create_product");
     }
 
     @RequestMapping(value = "/dashboard/product/submit/create", method = RequestMethod.GET)
     public ModelAndView submitProduct(  ) {
-        return new ModelAndView("admin/index", "content", "forms/create_product");
+        return new ModelAndView("admin/dashboard/index", "content", "forms/create_product");
     }
 
     @RequestMapping(value = "/dashboard/product/submit/create", method = RequestMethod.POST)
@@ -88,9 +85,8 @@ public class AdminController {
         return "redirect:/admin/dashboard/product";
     }
 
-//    @RequestMapping(method = RequestMethod.GET)
-//    public String printWelcome(ModelMap model) {
-//        model.addAttribute("message", "Hello world!");
-//        return "hello";
-//    }
+    @RequestMapping(value = "/dashboard/user", method = RequestMethod.GET)
+    public ModelAndView User(ModelMap model) {
+        return new ModelAndView("admin/dashboard/index", "content", "user");
+    }
 }
